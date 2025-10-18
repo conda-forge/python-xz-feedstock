@@ -18,8 +18,8 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - setuptools
-    - setuptools_scm
+    - hatchling
+    - hatch-vcs
   run:
     - python >={{ python_min }}
 
