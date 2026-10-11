@@ -1,13 +1,13 @@
 {% set name = "python-xz" %}
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: c8dc51070799ee9e77ddd9dd207a11cc9170e9298542f81e7187072e0d543478
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 7b6f55846118ded45b94eced89291b03a42849720a20c25864d27336004f31a3
 
 build:
   noarch: python
